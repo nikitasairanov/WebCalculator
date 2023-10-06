@@ -1,0 +1,27 @@
+*:before,
+*:after,
+* {
+    margin: 0;
+    box-sizing: border-box;
+    transition: 200ms;
+}
+
+body {
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#calculator-form {
+    margin: 40vh auto 25px auto;
+}
+
+    #calculator-form input:last-child {
+        margin-left: 15px;
+    }
+
+#calculate-btn {
+    width: 100px;
+    margin: 10px auto;
+}

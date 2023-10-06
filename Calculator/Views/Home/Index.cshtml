@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form id="calculator-form">
+    <input id="number1" placeholder="Введите число 1">
+    <input id="number2" placeholder="Введите число 2">
+    <input id="result" placeholder="Результат">
+</form>
+<select id="operations">
+    @foreach (string name in ViewBag.Operations)
+    {
+        <option>@name</option>
+    }
+</select>
+<button id="calculate-btn">Вычислить</button>
